@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.searchBox {
+  padding: 20px 10px;
+  height: 30px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 5em;
+  padding-left: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main div{
+  display: flex;
+  flex-direction: column;
+  max-width: 14em;
+  margin: 1em 4em;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 10px 40px;
+}
+
+a {
+  display: flex;
+  text-align: center;
+}
